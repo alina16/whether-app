@@ -1,0 +1,34 @@
+.card-body-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 320px) { 
+    .row.daily {
+        display: none;
+    }
+
+    .card {
+        img {
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 320px) { 
+    .row.daily {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) { 
+    .row.daily {
+        display: flex;
+    }
+
+    .card {
+        img {
+            width: 100%;
+        }
+    }
+}

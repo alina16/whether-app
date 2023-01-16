@@ -1,0 +1,23 @@
+@import "bootstrap";
+
+.toggle-btn {
+    border: 0;
+    outline: none;
+    width: 80px;
+    background: $gray-300;
+
+    > span {
+        &.active {
+            background: $info;
+            display: inline-block;
+            border-radius: var(--bs-border-radius-pill);
+            width: 40px;
+        }
+        &.left {
+            float: left;
+        }
+        &.right {
+            float: right;
+        }
+    }
+}

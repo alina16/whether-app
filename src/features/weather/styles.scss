@@ -1,0 +1,21 @@
+.weather-container {
+    .full-height {
+        height: calc(100vh - 85px);
+    }
+}
+
+@media (min-width: 320px) { 
+    .weather-container {
+        &.bg-secondary {
+            background-color: #fff!important;
+        }
+    }
+}
+
+@media (min-width: 992px) { 
+    .weather-container {
+        &.bg-secondary {
+            background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity))!important;
+        }
+    }
+}
